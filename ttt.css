@@ -1,0 +1,112 @@
+body{
+    background-color: black
+}
+*{
+    color: white
+}
+table{
+    
+    margin: 0 auto
+    
+}
+td{
+    /* border: 1px solid white;
+    border-collapse: collapse; */
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    margin: 0px
+    }
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+.place{
+    color: black;
+    font-size: 30px;
+}
+#tl{
+    border-top: 0px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 0px;
+}
+
+#tp{
+    border-top: 0px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+#tr{
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+#left{
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 0px;
+}
+#middle{
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+#right{
+    border-top: 1px solid white;
+    border-right: 0px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+#bl{
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+#bottom{
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 0px;
+    border-left: 1px solid white;
+}
+#br{
+    border-top: 1px solid white;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 1px solid white;
+}
+button{
+    color: black;
+    align-self: center;
+}
+#play{
+    text-align: center;
+    margin-top: 20px;
+}
+#x{
+    margin-right: 85px;
+}
+#o{
+    margin-left: 85px;
+}
+#score{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-size: 30px;
+}
+#X{
+    margin-right: 10px;
+}
+#O{
+    margin-left: 10px;
+}
+#reset{
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="ttt.css">
+</head>
+<body>
+<h1>Tic Tac Toe</h1>
+<div id="score"><span id="x">X</span><span id="X">0</span><span>:</span><span id="O">0</span><span id="o">O</span></div>
+<table>
+    <tr>
+        <td class="place" id="tl">1</td>
+        <td class="place" id="tp">2</td>
+        <td class="place" id="tr">3</td>
+    </tr>
+    <tr>
+        <td class="place" id="left">4</td>
+        <td class="place" id="middle">5</td>
+        <td class="place" id="right">6</td>
+    </tr>
+    <tr>
+        <td class="place" id="bl">7</td>
+        <td class="place" id="bottom">8</td>
+        <td class="place" id="br">9</td>
+    </tr>
+</table>
+<div id="play">
+<button id="Play" onclick="play()">Start</button>
+</div>
+<div id="reset"><button id="Reset" onclick="reset()">Reset</button></div>
+
+
+
+<script src="ttt.js"></script>
+</body>
+</html>
