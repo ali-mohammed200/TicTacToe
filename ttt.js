@@ -75,7 +75,7 @@ function victory() {
     play();
 
 }
-function stop(ms = 1000) {
+function stop(ms = 1000,player=true) {
     for (let item of fullboard){
         item.removeEventListener('click', fill)
     }
@@ -90,7 +90,7 @@ function stop(ms = 1000) {
             
         }   
     }, ms);
-    setTimeout(play,ms);
+    if(player){setTimeout(play,ms)};
     let winner;
     if(victoryRow !== undefined){
         winner = victoryRow[0].textContent
@@ -117,7 +117,7 @@ function stop(ms = 1000) {
     
 }
 function reset() {
-    stop(0);
+    stop(0,false);
     x.style.color = 'white';
     o.style.color = 'white';
     O.textContent = '0';
